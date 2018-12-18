@@ -1,0 +1,56 @@
+.container {
+  max-width: 600px;
+}
+.header {
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  transition: 0.2s;
+}
+.header .white-line {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+.header .white-line button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  color: steelblue;
+  height: 30px;
+  transition: 0.2s;
+}
+.header .white-line button:hover {
+  background-color: steelblue;
+  color: white;
+}
+.header .white-line .left {
+  float: left;
+}
+
+.header .white-line .right {
+  float: right;
+}
+
+.colors {
+  background-color: #232323;
+  color: white;
+}
+.square {
+  text-align: center;
+  background-color: yellow;
+  border-radius: 15%;
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  transition: 0.2s;
+}
+body {
+  background-color: #232323;
+}
+.text {
+  color: black;
+  vertical-align: middle;
+}
